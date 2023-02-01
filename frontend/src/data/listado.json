@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "crimg": [
+            "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+            "https://rodati.cl/images/listings/2022-06/77c6e874-1654857790-256.jpg",
+            "https://i.ytimg.com/vi/NMi0hqejv4I/maxresdefault.jpg",
+            "https://cdn.wallpapersafari.com/37/34/b3PJBn.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_646341-MLC50710126016_072022-W.jpg"
+        ],
+        "category": "Sedan",
+        "title": "Hyundai Verna",
+        "location": "Córdoba",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2020",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Hibrido",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "600 km"
+          }
+    },
+    {
+        "id": 2,
+        "crimg": [
+            "https://www.fordpussetto.com.ar/public/images/vehiculos/colores/focus-negro-perlado.jpg",
+            "https://autosbalears.com/wp-content/uploads/2017/02/IMAGEN-FOCUS.jpg",
+            "https://http2.mlstatic.com/D_NQ_NP_935349-MLA52253604383_112022-W.jpg",
+            "https://img-ar-2.trovit.com/1y1pQ_Qe1S/1y1pQ_Qe1S.1_11.jpg",
+            "https://cdn.motor1.com/images/mgl/VRgMy/s3/critica-ford-focus-2-0-titanium-powershift-2016.webp"
+        ],
+        "category": "Subcompacto",
+        "title": "Ford Focus",
+        "location": "San Carlos de Bariloche",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2021",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Manual",
+            "gps": "No",
+            "airConditioner": "Si",
+            "autonomy": "400 km"
+          }
+    },
+    {
+        "id": 3,
+        "crimg": [
+            "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://noticias.coches.com/wp-content/uploads/2014/07/arden_land-rover-range-rover-ar6-2010_r2.jpg",
+            "https://i.pinimg.com/originals/ef/94/a3/ef94a34423dfcddb5f772d80d4b6c76c.jpg",
+            "https://phantom-marca.unidadeditorial.es/b61c2f0ef2e6e4df2e036cd39cc4dca8/f/webp/assets/multimedia/imagenes/2020/09/24/16009474161982.jpg",
+            "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_f4d077972b64495c8f9ac3d4a3e8da31.jpg"
+        ],
+        "category": "SUV",
+        "title": "Range Rover",
+        "location": "Mendoza",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2020",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Hibrido",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "700 km"
+          }
+    },
+    {
+        "id": 4,
+        "crimg": [
+            "https://noticias.coches.com/wp-content/uploads/2016/07/BMW-Serie-3-GT-M-Sport-2016-16.jpg",
+            "https://noticias.coches.com/wp-content/uploads/2016/07/BMW-Serie-3-GT-M-Sport-2016-17.jpg",
+            "https://noticias.coches.com/wp-content/uploads/2016/07/BMW-Serie-3-GT-M-Sport-2016-11.jpg",
+            "https://noticias.coches.com/wp-content/uploads/2016/07/BMW-Serie-3-GT-M-Sport-2016-09.jpg",
+            "https://noticias.coches.com/wp-content/uploads/2016/07/BMW-Serie-3-GT-M-Sport-2016-20.jpg"
+        ],
+        "category": "Deportivo",
+        "title": "BMW 3 Series Gran Turismo",
+        "location": "Buenos Aires",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2019",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "550 km"
+          }
+    },
+    {
+        "id": 5,
+        "crimg": [
+            "https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/07/mercedes-c63-amg-sedan-2018_2.jpg?itok=lwlY1nx3",
+            "https://www.autopista.es/uploads/s1/57/18/67/3/article-mercedes-clase-c-coupe-amg-2015-opiniones-56446beb3f68b.jpeg",
+            "https://img.remediosdigitales.com/633d27/presentacion-clasea-02/450_1000.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTNmN50XDQK-wUejbo0kjiNUgzpB7qoMJMOg1wPSAwm-zpQdcL4KNFiQiDUx76qaEQnmI&usqp=CAU"
+        ],
+        "category": "Subcompacto",
+        "title": "Mercedes-Benz Clase A",
+        "location": "Córdoba",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2019",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "550 km"
+          }
+    },
+    {
+        "id": 6,
+        "crimg": [
+            "https://images.pexels.com/photos/14038635/pexels-photo-14038635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-volkswagen-tiguan-1-1631145308.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-volkswagen-tiguan-5-1631145306.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-volkswagen-tiguan-17-1631145348.jpg",
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-volkswagen-tiguan-6-1631145330.jpg"
+        ],
+        "category": "SUV",
+        "title": "Volkswagen Tiguan",
+        "location": "Mendoza",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2019",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "550 km"
+          }
+    },
+    {
+        "id": 7,
+        "crimg": [
+            "https://images.pexels.com/photos/205740/pexels-photo-205740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://p4.wallpaperbetter.com/wallpaper/305/583/704/mercedes-benz-sl500-blue-mercedes-benz-coupe-wallpaper-preview.jpg",
+            "https://p4.wallpaperbetter.com/wallpaper/424/961/298/benz-mercedes-sl500-wallpaper-preview.jpg",
+            "https://p4.wallpaperbetter.com/wallpaper/851/939/597/2013-mercedes-benz-sl500-wallpaper-preview.jpg",
+            "https://p4.wallpaperbetter.com/wallpaper/480/802/508/2005-08-500-benz-convertible-wallpaper-preview.jpg"
+        ],
+        "category": "Deportivo",
+        "title": "Mercedes-Benz SL500",
+        "location": "Buenos Aires",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2019",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "550 km"
+          }
+    },
+    {
+        "id": 8,
+        "crimg": [
+            "https://images.unsplash.com/photo-1560009341-b0a4cad519bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlnV686Hzq0TduCCEMrtBHrgzEzN1bQwIYIjdBIRbaPAnObEiNQ6Wgdm4BrsWMykxn6Rc&usqp=CAU",
+            "https://w0.peakpx.com/wallpaper/923/93/HD-wallpaper-2021-bmw-5-series-540i-xdrive-m-sport-package-rear-car.jpg",
+            "https://www.diariomotor.com/imagenes/picscache/1440x655c/1440_portada_bmw-serie-5-2017-32_1440x655c.jpg",
+            "https://mediapool.bmwgroup.com/cache/P9/202010/P90404078/P90404078-the-new-bmw-540i-xdrive-sedan-phytonic-blue-metallic-10-2020-600px.jpg"
+        ],
+        "category": "Sedan",
+        "title": "BMW Serie 5 Sedan",
+        "location": "San Carlos de Bariloche",
+        "description": "Este auto cuenta con todas las prestaciones lanzadas en los últimos años, otorgando al usuario la mejor experiencia en seguridad, comodidad, manejabilidad y andar.",
+        "feature": {
+            "model": "2019",
+            "doors": 5,
+            "numPassengers": 5,
+            "motorType": "Nafta",
+            "transmission": "Automatica",
+            "gps": "Integrado",
+            "airConditioner": "Si",
+            "autonomy": "550 km"
+          }
+    }
+]

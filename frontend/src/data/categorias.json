@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "caption": "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "category": "Sedan",
+        "paragraph": "Lorem ipsum dolor sit amet"
+    },
+    {
+        "id": 2,
+        "caption": "https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "category": "Subcompacto",
+        "paragraph": "Lorem ipsum dolor sit amet"
+
+    },
+    {
+        "id": 3,
+        "caption": "https://images.pexels.com/photos/14038635/pexels-photo-14038635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "category": "SUV",
+        "paragraph": "Lorem ipsum dolor sit amet"
+
+    },
+    {
+        "id": 4,
+        "caption": "https://images.pexels.com/photos/2365572/pexels-photo-2365572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "category": "Deportivo",
+        "paragraph": "Lorem ipsum dolor sit amet"
+
+    }
+]

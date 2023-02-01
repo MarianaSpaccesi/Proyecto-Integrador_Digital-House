@@ -1,0 +1,66 @@
+.content-booking{
+    background-color: #DFE4EA;
+    padding-bottom: 5em;;
+}
+
+.form-booking, .select-booking{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.form-row1{
+    background-color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.form-row2{
+    background-color: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.card-booking{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.col2{
+    margin-top: 24px;
+}
+
+.form-control:disabled{
+    background-color: #dfe4ea;
+    border: 1px solid #dfe4ea;
+    /* box-shadow: 0px 1px 5px 3px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    color: #787878; */
+}
+
+input#cityBooking.form-control {
+    box-shadow: 0px 1px 5px 3px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    color: #787878;
+}
+
+.politics-border {
+    border-bottom: solid #F0572D 2px;
+}
+
+#loader{
+    background-color: #F0572D;
+    
+}
+.height-70vh{
+    height: 78vh;
+}

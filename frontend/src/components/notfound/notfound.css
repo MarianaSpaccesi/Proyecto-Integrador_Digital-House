@@ -1,0 +1,11 @@
+.notfound{
+    background-color: rgba(223, 228, 234, 0.3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+i#notFoundIcon.bi.bi-emoji-frown-fill.text-primary::before{
+    font-size: 4rem;
+}

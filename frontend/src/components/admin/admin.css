@@ -1,0 +1,65 @@
+.admin{
+    background-color: #DFE4EA;
+    padding-bottom: 5em;
+}
+
+p.error-message{
+    margin: 0;
+}
+
+.container-form-admin{
+    padding-top: 5em;
+}
+
+select#carCity.form-control, select#carCategory.form-control, select#selectCarFeatures.form-control, select#selectCarFeaturesValue.form-control{
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+    appearance: auto;
+}
+
+select.form-control{
+    margin-bottom: 1px;
+}
+
+textarea.form-control{
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+}
+
+select.form-select{
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+    border: 1px solid #fff;
+
+}
+
+input#inputFile.form-control{
+    background-color: transparent;
+    color: #31363f;
+}
+
+p{
+    font-size: 14px;
+}
+
+.bi-plus-square-fill {
+    font-size: 25px;
+    color: #f0572d;
+}
+
+.bi.bi-x-square-fill{
+    font-size: 25px;
+    color: #31363f;
+    padding: 0;
+    margin: 0;
+}
+button#btnRemoveImg.btn{
+    margin: 0 !important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    padding-right: 0!important;
+}
+
+button#btnAddImg.btn{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}

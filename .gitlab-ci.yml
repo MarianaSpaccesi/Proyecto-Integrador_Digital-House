@@ -1,0 +1,105 @@
+variables:
+    IMAGE_NAME: viesel/backend-pi
+
+stages:
+    - build
+    - test
+    - package
+    - deploy
+
+maven-build:
+    image: maven:3.8.6-amazoncorretto-17
+    stage: build
+    tags:
+        - grupo01
+    rules:
+        - changes:
+            - backend/**/*
+    script:
+        - printenv
+        - mvn package -B -f ./backend
+    artifacts:
+        paths:
+            - ./backend/target/Backend-0.0.1-SNAPSHOT.jar
+
+npm-build:
+    image: node:18.12-alpine3.16
+    stage: build
+    tags:
+        - grupo01
+    rules:
+        - changes:
+            - frontend/**/*
+    script:
+        - echo "REACT_APP_BASE_URL=$BACKEND_BASE_URL" > ./frontend/.env
+        - cd ./frontend
+        - npm install
+        - CI=false npm run build
+    artifacts:
+        paths:
+          - frontend/build
+
+maven-test:
+    image: maven:3.8.6-amazoncorretto-17
+    stage: test
+    tags:
+        - grupo01
+    rules:
+        - changes:
+            - backend/**/*
+    script:
+        - mvn test -f ./backend
+
+build-image:
+    image: docker:20.10.16
+    services:
+        - docker:20.10.16-dind
+    tags:
+        - grupo01
+    stage: package
+    variables:
+        DOCKER_TLS_CERTDIR: "/certs"
+    rules:
+        - changes:
+            - backend/**/*
+    script:
+        - docker info
+        - echo "$REGISTRY_PASS" | docker login -u $REGISTRY_USER --password-stdin
+        - cp ./backend/target/* ./infraestructure/docker/backend
+        - docker build -t $IMAGE_NAME:$CI_COMMIT_SHORT_SHA ./infraestructure/docker/backend
+        - docker push $IMAGE_NAME:$CI_COMMIT_SHORT_SHA
+
+deploy-backend:
+    stage: deploy
+    image: alpine:3.11
+    tags:
+        - grupo01
+    rules:
+        - changes:
+            - backend/**/*
+    variables:
+        REPOSITORY_PATH: "/opt/grupo-01/infraestructure/docker/deploy/scripts"
+        DEPLOY_PATH: "/opt/backend-service"
+    before_script: 
+      - apk update && apk add openssh-client bash 
+      - mkdir -p ~/.ssh 
+      - eval $(ssh-agent -s) 
+      - echo "$EC2_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null 
+      - touch ~/.ssh/config 
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config 
+      - ssh-keyscan -H $EC2_IP_ADDRESS >> ~/.ssh/known_hosts 
+    script:
+        - ssh $EC2_USER@$EC2_IP_ADDRESS "export CI_COMMIT_SHORT_SHA=\"$CI_COMMIT_SHORT_SHA\" && cd $REPOSITORY_PATH && git pull && cp -r $REPOSITORY_PATH/* $DEPLOY_PATH/ && cd $DEPLOY_PATH && ./update-compose.sh"
+
+deploy-frontend:
+    stage: test
+    image: python:latest
+    script:
+        - echo "Deploying App"
+        - pip3 install awscli
+        - aws configure set aws_access_key_id $AWS_ACCESS_KEY_ID
+        - aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
+        - aws s3 sync ./frontend/build s3://$S3_BUCKET_NAME --delete
+    rules:
+        - changes:
+            - frontend/**/*

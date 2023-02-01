@@ -1,0 +1,30 @@
+#buscador {
+    background-color: #31363F;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    display: block;
+}
+
+div.input-group-text {
+    border: 1px solid #ffffff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input#fechasForm,select#ciudadForm {
+    border: 1px solid #ffffff;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-color: #fff;
+}
+.date-range{
+    left: 10px;
+    z-index: 100;
+}
+
